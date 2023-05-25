@@ -5,7 +5,7 @@ const { Client } = require("pg");
 
 // postgresql setup
 const client = new Client({
-  connectionString: "postgresql://me:password@localhost:5432/requestbin"
+  connectionString: "postgresql://judah:password@localhost:5432/requestbin"
 });
 client.connect();
 
